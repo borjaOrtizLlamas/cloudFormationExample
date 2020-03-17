@@ -1,0 +1,16 @@
+{
+	"AWSTemplateFormatVersion": "2010-09-09", 
+	"Resources":{
+		"Instancia1":{
+			"Type":"AWS::EC2::Instance",
+			"Properties":{
+				"ImageId": "ami-0253f5682c6045656",
+				"KeyName": "jenkins", 
+				"InstanceType": "t2.micro",
+				"AvailabilityZone": "eu-west-1b",
+				"SecurityGroupIds":["sg-0fe8da92d4692ea7a"]
+			}
+		}
+	} 
+
+}
