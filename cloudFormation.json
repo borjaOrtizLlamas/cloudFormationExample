@@ -8,7 +8,7 @@
 				"KeyName": "jenkins", 
 				"InstanceType": "t2.micro",
 				"AvailabilityZone": "eu-west-1b",
-				"SecurityGroupIds":["sg-0cb7f8fc7bb557233"]
+				"SecurityGroupIds":["sg-0442f6d6e03839a66"]
 			}
 		}
 	} 
