@@ -4,11 +4,11 @@
 		"Instancia1":{
 			"Type":"AWS::EC2::Instance",
 			"Properties":{
-				"ImageId": "ami-0253f5682c6045656",
+				"ImageId": "ami-0a494b2d66526c9b6",
 				"KeyName": "jenkins", 
 				"InstanceType": "t2.micro",
 				"AvailabilityZone": "eu-west-1b",
-				"SecurityGroupIds":["sg-0fe8da92d4692ea7a"]
+				"SecurityGroupIds":["sg-0cb7f8fc7bb557233"]
 			}
 		}
 	} 
